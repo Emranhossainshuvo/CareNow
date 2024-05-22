@@ -31,8 +31,8 @@ const Testimonials = () => {
             <section>
                 {/* section for holding the titles in this page */}
                 <section className='mb-36'>
-                    <h3 className="text-[#19D3AE] font-semibold">Testimonials</h3>
-                    <p className="text-3xl font-light">What Our Patients Says</p>
+                    <h3 className="text-[#19D3AE] text-center md:text-start font-semibold">Testimonials</h3>
+                    <p className="text-3xl text-center md:text-start font-light">What Our Patients Says</p>
                 </section>
                 {/* section that will hold the testimonials cards */}
                 <section>
