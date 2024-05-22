@@ -34,16 +34,18 @@ const Services = () => {
                     </section>
                 </section>
                 {/* section for holding hero section */}
-                <section className="flex justify-center gap-16 items-center">
+                <section className="md:flex md:justify-center gap-16 md:items-center">
                     {/* section to hold the image  */}
                     <section>
-                        <img className=" rounded-lg h-[60vh]" src="https://i.ibb.co/8PrCct4/65296.jpg" alt="" />
+                        <img className=" rounded-lg md:h-[60vh]" src="https://i.ibb.co/8PrCct4/65296.jpg" alt="" />
                     </section>
                     {/* section to hold the texts */}
                     <section className="md:w-1/2">
-                        <h4 className="text-[#3A4256] mb-6 text-4xl font-semibold">Exceptional Dental Care, on Your Terms</h4>
-                        <p className="text-[#000000] text-sm mb-11">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using Content here, content here&apos;s, making it look like readable English. Many desktop publishing packages and web page</p>
-                        <button className="text-white p-2 rounded-md bg-gradient-to-r from-[#17D2BB] to-[#11D0E2]">Get started</button>
+                        <h4 className="text-[#3A4256] text-center md:text-start mb-6 text-4xl font-semibold">Exceptional Dental Care, on Your Terms</h4>
+                        <p className="text-[#000000] text-center md:text-start text-sm mb-11">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using Content here, content here&apos;s, making it look like readable English. Many desktop publishing packages and web page</p>
+                        <section className="w-full flex justify-center md:justify-start">
+                            <button className="text-white p-2 rounded-md bg-gradient-to-r from-[#17D2BB] to-[#11D0E2]">Get started</button>
+                        </section>
                     </section>
                 </section>
             </section>
