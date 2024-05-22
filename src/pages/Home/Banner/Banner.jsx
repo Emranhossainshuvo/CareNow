@@ -3,7 +3,7 @@ const Banner = () => {
     return (
         <>
             {/*section to hold everything  */}
-            <section className="pt-52 flex justify-between items-center">
+            <section className="pt-52 pb-60 flex justify-between items-center">
                 {/* section to hold textx */}
                 <section>
                     <h3 className="text-5xl mb-3 font-semibold">Your New Smile Starts <br /> Here</h3>
