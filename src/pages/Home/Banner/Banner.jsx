@@ -12,7 +12,7 @@ const Banner = () => {
                 </section>
                 {/* section to hold the image */}
                 <section>
-                    <img className="rounded-md" src="https://i.ibb.co/Yy0Zm3f/17818.jpg" alt="" />
+                    <img className="rounded-md" src="https://i.ibb.co/GpG6hjf/2309.jpg" alt="" />
                 </section>
             </section>
         </>
