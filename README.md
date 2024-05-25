@@ -1,6 +1,6 @@
-# React + Vite
+# Hello there
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm so happy that you came here. So, this is my frontend project called <a href="https://care-now.netlify.app/">CareNow<a/>
 
 Currently, two official plugins are available:
 
