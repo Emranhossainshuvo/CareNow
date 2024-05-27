@@ -8,7 +8,7 @@ const Banner = () => {
                 <section>
                     <h3 className="text-5xl text-center md:text-start mb-3 font-semibold">Your New Smile Starts <br /> Here</h3>
                     <p className="mb-7 text-center md:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the</p>
-                    <section className="w-full flex mb-3 justify-center">
+                    <section className="w-full flex mb-3 md:justify-start justify-center">
                         <button className="text-white  p-2 rounded-md bg-gradient-to-r from-[#17D2BB] to-[#11D0E2]">Get started</button>
                     </section>
                 </section>
