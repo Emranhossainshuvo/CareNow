@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -21,9 +22,9 @@ const Navbar = () => {
 
                 <div className={`menu-links absolute md:static top-0 right-5 md:flex ${menuOpen ? 'block' : 'hidden'} text-lg font-medium`}>
                     <ul className="md:flex items-center gap-5">
-                        <li>Home</li>
+                        <NavLink to={`/`}><li>Home</li></NavLink>
                         <li>About</li>
-                        <li>Appointment</li>
+                        <NavLink to={`appointment`}><li>Appointment</li></NavLink>
                         <li>Reviews</li>
                         <li>Contact us</li>
                         <li>Login</li>
