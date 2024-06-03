@@ -29,7 +29,9 @@ const Navbar = () => {
                         <NavLink to={`contact`}>
                             <li>Contact us</li>
                         </NavLink>
-                        <li>Login</li>
+                        <NavLink to={`/login`}>
+                            <li>Login</li>
+                        </NavLink>
                     </ul>
                 </div>
                 <div className="menu-icon md:hidden" onClick={handleToggle}>

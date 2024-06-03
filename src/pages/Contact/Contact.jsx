@@ -4,7 +4,6 @@ import { FaPhoneVolume, FaUserCog } from "react-icons/fa";
 import { MdLocationOn, MdMarkEmailRead, MdOutlineMailLock } from "react-icons/md";
 import { BsTextareaT } from "react-icons/bs";
 
-import { Helmet } from "react-helmet-async";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 import Swal from "sweetalert2";
