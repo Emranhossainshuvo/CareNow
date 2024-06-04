@@ -7,7 +7,7 @@ const About = () => {
     <div>
      
       {/* 1st section */}
-      <div className="flex flex-col sm:flex-row md:flex-row px-[2%] sm:px-[5%] lg:px-[8%] mt-28 gap-10">
+      <div className="flex flex-col sm:flex-row md:flex-row px-[2%] sm:px-[5%]   mt-28 gap-10">
         <img
           src={`https://i.ibb.co/NsmCb6w/sarah-brown-Cw-Si-AVl-XOWQ-unsplash.jpg`}
           alt=""
@@ -49,7 +49,7 @@ const About = () => {
         </div>
       </div>
       {/* second section */}
-      <div className="flex flex-col sm:flex-row md:flex-row justify-between px-[2%] sm:px-[5%] lg:px-[8%] mt-28 gap-10">
+      <div className="flex flex-col sm:flex-row md:flex-row justify-between px-[2%] sm:px-[5%]   mt-28 gap-10">
         <div>
           <h2 className="text-xl md:text-2xl lg:text-4xl font-bold text-sky-800">
             Our{" "}
@@ -77,7 +77,7 @@ const About = () => {
 
      
       {/* fourth second */}
-      <div className="flex flex-col sm:flex-row md:flex-row justify-between px-[2%] sm:px-[5%] lg:px-[8%] mt-32 gap-10 mb-14">
+      <div className="flex flex-col sm:flex-row md:flex-row justify-between px-[2%] sm:px-[5%]   mt-32 gap-10 mb-14">
         <div className="relative">
           <img
             src={`https://i.ibb.co/NsmCb6w/sarah-brown-Cw-Si-AVl-XOWQ-unsplash.jpg`}

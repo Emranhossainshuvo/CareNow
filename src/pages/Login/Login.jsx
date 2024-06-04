@@ -1,94 +1,48 @@
-// import { useContext } from "react";
-// import { useForm } from "react-hook-form";
-// import { AuthContext } from "../../Providers/AuthProvider";
 
 const Login = () => {
-//   const { register, handleSubmit, formState: { errors } } = useForm();
-//   const { signIn, googleSignIn } = useContext(AuthContext);
-
-//   const handleGoogle = () => {
-//     googleSignIn()
-//     .then(res => {
-//       console.log(res)
-//     })
-//     .catch(error => {
-//       console.log(error)
-//     })
-//   }
-
-//   const onSubmit = (data) => {
-//     console.log(data);
-//     signIn(data.email, data.password)
-//       .then((res) => {
-//         const user = res.user;
-//         console.log(user);
-//       })
-//       .catch((error) => {
-//         console.error(error);
-//       });
-//   };
-
   return (
-    <>
-      <div className="hero min-h-screen bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-        <div  data-aos="fade-up" className="card w-full max-w-md shadow-2xl bg-base-200 rounded-lg overflow-hidden">
-          <div className="card-body p-6">
-            <h2 className="text-3xl font-bold mb-4 text-primary">Login</h2>
-
-            {/* Email field */}
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text text-secondary">Email</span>
-              </label>
-              <input
-                type="email"
-                // {...register("email")}
-                placeholder="Email"
-                className="input input-bordered"
-                required
-              />
-            </div>
-
-            {/* Password field */}
-            <div className="form-control mt-4">
-              <label className="label">
-                <span className="label-text text-secondary">Password</span>
-              </label>
-              <input
-                type="password"
-                // {...register("password")}
-                placeholder="Password"
-                className="input input-bordered"
-                required
-              />
-              <label className="label">
-                <a href="#" className="label-text-alt link link-hover">
-                  Forgot password?
-                </a>
-              </label>
-            </div>
-
-            {/* Login button */}
-            <div className="form-control mt-6">
-              <button className="btn btn-primary w-full" 
-              //onClick={handleSubmit(onSubmit)}
-              >
-                Login
-              </button>
-            </div>
-
-            {/* Google and GitHub login buttons */}
-            <div className="flex items-center justify-between mt-4">
-              <button 
-              //onClick={handleGoogle}
-               className="btn btn-secondary">
-                <i className="fab fa-google mr-2"></i> Google
-              </button>
+    <div>
+      <section className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+          <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
+            <img className="w-8 h-8 mr-2" src="https://i.ibb.co/2jN8NYg/icons8-doctor-bag-64.png" alt="logo" />
+              CareNow
+          </a>
+          <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+            <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+              <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                Sign in to your account
+              </h1>
+              <form className="space-y-4 md:space-y-6" action="#">
+                <div>
+                  <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                  <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required="" />
+                </div>
+                <div>
+                  <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                  <input type="password" name="password" id="password" placeholder="••••••••" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="" />
+                </div>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-start">
+                    <div className="flex items-center h-5">
+                      <input id="remember" aria-describedby="remember" type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="" />
+                    </div>
+                    <div className="ml-3 text-sm">
+                      <label className="text-gray-500 dark:text-gray-300">Remember me</label>
+                    </div>
+                  </div>
+                  <a href="#" className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</a>
+                </div>
+                <button type="submit" className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Sign in</button>
+                <p className="text-sm font-light text-gray-500 dark:text-gray-400">
+                  Don’t have an account yet? <a href="#" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign up</a>
+                </p>
+              </form>
             </div>
           </div>
         </div>
-      </div>
-    </>
+      </section>
+    </div>
   );
 };
 
