@@ -5,7 +5,7 @@ import { VscDebugStart } from "react-icons/vsc";
 const About = () => {
   return (
     <div>
-     
+
       {/* 1st section */}
       <div className="flex flex-col sm:flex-row md:flex-row px-[2%] sm:px-[5%]   mt-28 gap-10">
         <img
@@ -15,10 +15,10 @@ const About = () => {
         />
         <div>
           <h2 className="text-xl md:text-2xl lg:text-4xl font-bold  text-sky-800">
-            Join with best fitness coach
+            Join with best certified dentists
           </h2>
           <p className="max-w-xl py-7 text-sm">
-            Our personal trainers can help you meet your fitness goals. They can
+            Your personal dentist can help you meet your all nececcity. They can
             become your teacher, your motivator, your coach and your friend. Our
             personal trainers are degreed and certified by an accredited fitness
             organization.
@@ -26,24 +26,23 @@ const About = () => {
           <ul className="list-image text-sm">
             <li className="flex gap-4">
               <IoCheckmarkDone className="w-[20px] text-sky-700 " />
-              Teach you to exercise using proper form to prevent injury
+              Teach you how to prevent saveral dental problems from their roots
             </li>
             <li className="flex gap-4 py-3">
               <IoCheckmarkDone className="w-[20px] text-sky-700 " />
-              Add diversity to your workout to get over a weight-loss plateau
+              Take proper care of you dental health with relavent knowledge
             </li>
             <li className="flex gap-4">
               <IoCheckmarkDone className="w-[20px] text-sky-700  " />
-              Boost athletic performance with sport-specific training
+              Learn the key strategies to stop dental issues before they start.
             </li>
             <li className="flex gap-4 py-3">
               <IoCheckmarkDone className="w-[20px] text-sky-700  " />
-              Give you the accountability and motivation to get to the gym
+              Empower yourself with essential tips for maintaining optimal oral hygiene.
             </li>
             <li className="flex gap-4">
               <IoCheckmarkDone className="w-[20px] text-sky-700 " />
-              Encourage you to try new fitness challenges and drive your health
-              forward
+              Discover the best practices for preventing common dental ailments effectively.
             </li>
           </ul>
         </div>
@@ -58,13 +57,10 @@ const About = () => {
             </span>
           </h2>
           <p className="max-w-2xl py-7 text-sm text-justify indent-16 ">
-            Our personal trainers can help you meet your fitness goals. They can
-            become your teacher, your motivator, your coach and your friend. Our
-            personal trainers are degreed and certified by an accredited fitness
-            orga-nization.
+            Welcome to CareNow Dental Clinic, where your oral health is our priority. We offer comprehensive dental services, from preventive care to advanced treatments. Our experienced team ensures a comfortable, personalized experience, promoting lifelong dental health.
           </p>
           <p className="max-w-2xl py-5 text-sm text-justify indent-16">
-          Through our evidence-based approach, we strive to educate and inspire our clients to make sustainable lifestyle changes that go beyond mere physical appearance, focusing instead on overall health and happiness. We understand that each individual&apos;s journey is unique, and we are dedicated to providing personalized support and guidance every step of the way.
+            Through our evidence-based approach, we strive to educate and inspire our clients to make sustainable lifestyle changes that go beyond mere physical appearance, focusing instead on overall health and happiness. We understand that each individual&apos;s journey is unique, and we are dedicated to providing personalized support and guidance every step of the way.
           </p>
         </div>
         <img
@@ -75,7 +71,7 @@ const About = () => {
       </div>
       {/* third section */}
 
-     
+
       {/* fourth second */}
       <div className="flex flex-col sm:flex-row md:flex-row justify-between px-[2%] sm:px-[5%]   mt-32 gap-10 mb-14">
         <div className="relative">
@@ -100,7 +96,7 @@ const About = () => {
               </form>
               <iframe
                 className="w-full aspect-video h-[500] "
-                src="https://www.youtube.com/embed/8ef7FhmMcLU"
+                src="https://www.youtube.com/embed/cRWCHwt4_xQ?si=TM4pnPwJnauWDVtI"
               ></iframe>
             </div>
           </dialog>
@@ -113,7 +109,7 @@ const About = () => {
         <div>
           <h2 className="text-xl md:text-3xl  font-bold text-sky-700">
             We Have The Best Caretaker To Providing Best Services Purchase –{" "}
-            <span className="text-sky-900">Revive</span>.
+            <span className="text-sky-900">CareNow</span>.
           </h2>
           <p className="max-w-2xl py-7 text-sm text-justify">
             Explain to you how all this mistaken idea of denouncing ut pleasure
