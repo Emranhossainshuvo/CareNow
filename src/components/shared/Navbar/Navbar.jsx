@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import './navbar.css'
 
 const Navbar = () => {
 
@@ -25,9 +26,8 @@ const Navbar = () => {
                         <NavLink to={`/`}><li>Home</li></NavLink>
                         <NavLink to={`/about`}><li>About</li></NavLink>
                         <NavLink to={`appointment`}><li>Appointment</li></NavLink>
-                        <li>Reviews</li>
                         <NavLink to={`contact`}>
-                            <li>Contact us</li>
+                            <li>Contact</li>
                         </NavLink>
                         <NavLink to={`/login`}>
                             <li>Login</li>
