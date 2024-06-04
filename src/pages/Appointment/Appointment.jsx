@@ -15,7 +15,7 @@ const Appointment = () => {
                 </section>
             </section>
             {/* section for holdint the section title */}
-            <section style={{backgroundImage: 'url("https://i.ibb.co/k5ZxVhz/abstract-nature-painted-with-watercolor-autumn-leaves-backdrop-generated-by-ai.jpg")' }} className="text-center h-[30vh] flex flex-col justify-center items-center rounded-md bg-fixed mb-16">
+            <section style={{ backgroundImage: 'url("https://i.ibb.co/k5ZxVhz/abstract-nature-painted-with-watercolor-autumn-leaves-backdrop-generated-by-ai.jpg")' }} className="text-center h-[30vh] flex flex-col justify-center items-center rounded-md bg-fixed mb-16">
                 <p className="font-semibold text-[#19D3AE]">Book Appointment</p>
                 <h4 className="text-3xl">Hurry up your sit</h4>
             </section>
@@ -37,16 +37,18 @@ const Appointment = () => {
                     </section>
                 </section>
                 {/* section to hold the form */}
-                <section className="bg-[#162E2E]">
-                    <h3>Scedule an appointment</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, laborum.</p>
-                    <form className="flex flex-col gap-3">
-                        <input type="text" />
-                        <input type="text" />
-                        <input type="text" />
-                        <input type="text" />
-                        <input type="text" />
-                        <input type="submit" />
+                <section className="bg-[#162E2E] rounded-md">
+                    <section className="text-white px-2 text-center mx-auto">
+                        <h3 className="text-5xl pt-4 font-semibold mb-2">Scedule an  <br />appointment</h3>
+                        <p className="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat hic <br /> porro obcaecati officia nisi provident placeat doloremque.</p>
+                    </section>
+                    <form className="flex w-4/5 mx-auto mb-5 flex-col gap-3">
+                        <input className="rounded-md p-1 mb-2" type="text" />
+                        <input className="rounded-md p-1 mb-2" type="text" />
+                        <input className="rounded-md p-1 mb-2" type="text" />
+                        <input className="rounded-md p-1 mb-2" type="text" />
+                        <input className="rounded-md p-1 mb-2" type="text" />
+                        <input className="rounded-md bg-white p-1 mb-2" type="submit" />
                     </form>
                 </section>
             </section>
