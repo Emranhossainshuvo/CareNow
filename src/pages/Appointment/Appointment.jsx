@@ -24,22 +24,22 @@ const Appointment = () => {
                 {/* section to hold the text contents */}
                 <section>
                     <section>
-                        <h4>Lorem, ipsum.</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, aut!</p>
+                        <h4 className="text-2xl font-medium">Lorem, ipsum.</h4>
+                        <p className="text-lg font-medium my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, aut!</p>
                     </section>
                     <section>
-                        <h4>Lorem, ipsum.</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, aut!</p>
+                        <h4 className="text-2xl font-medium">Lorem, ipsum.</h4>
+                        <p className="text-lg font-medium my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, aut!</p>
                     </section>
                     <section>
-                        <h4>Lorem, ipsum.</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, aut!</p>
+                        <h4 className="text-2xl font-medium">Lorem, ipsum.</h4>
+                        <p className="text-lg font-medium my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, aut!</p>
                     </section>
                 </section>
                 {/* section to hold the form */}
                 <section className="bg-[#162E2E] rounded-md">
                     <section className="text-white px-2 text-center mx-auto">
-                        <h3 className="text-5xl pt-4 font-semibold mb-2">Scedule an  <br />appointment</h3>
+                        <h3 className="text-3xl pt-4 font-semibold mb-2">Scedule an  <br />appointment</h3>
                         <p className="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat hic <br /> porro obcaecati officia nisi provident placeat doloremque.</p>
                     </section>
                     <form className="flex w-4/5 mx-auto mb-5 flex-col gap-3">

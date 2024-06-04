@@ -42,9 +42,9 @@ const Contact = () => {
             <div className="mt-12">
                 <div className="px-[2%] sm:px-[5%] lg:px-[8%]">
                     {/* contact header */}
-                    <h1 className="text-3xl font-semibold text-center text-sky-700 mb-3">Contact Us</h1>
+                    <h1 className="text-3xl font-semibold text-center text-[#17D2BE] mb-3">Contact Us</h1>
                     <p className="max-w-lg mx-auto text-center text-gray-400">Alternatively, you can contact us directly via email or phone using the information provided below. Our dedicated team is ready to assist you with any questions or concerns you may have.</p>
-                    <div className="flex flex-col lg:flex-row mt-14 justify-between">
+                    <div className="flex flex-col gap-4 lg:flex-row mt-14 justify-between">
                         <div className="mb-10">
 
                             <form ref={form} onSubmit={sendEmail}>
@@ -62,7 +62,7 @@ const Contact = () => {
                                     <span className="absolute inset-y-0 left-0 flex items-center pl-2">
                                         <MdOutlineMailLock className="dark:text-black w-[20px]" />
                                     </span>
-                                    <input className="placeholder:italic w-full md:w-[500px] placeholder:text-slate-400 block bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-600 focus:ring-sky-700 focus:ring-1 sm:text-sm" placeholder="Write your email..." type="email" name="user_email" />
+                                    <input className="placeholder:italic w-full md:w-[500px] placeholder:text-slate-400 block bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-600 focus:ring-sky-700 focus:ring-1 sm:text-sm" placeholder="Your email address..." type="email" name="user_email" />
                                 </label>
                                 {/* textarea */}
                                 <label className="relative block my-3">
@@ -109,14 +109,14 @@ const Contact = () => {
                                         <FaPhoneVolume className="w-[35px] animate-ping text-sky-800" />
                                     </div>
                                     <h2 className="font-semibold text-2xl">Contact us now</h2>
-                                    <p>+880-01233-456789</p>
+                                    <p>+880-01620366102</p>
                                 </div>
                                 <div className="text-center">
                                     <div className="flex justify-center items-center">
                                         <MdMarkEmailRead className="w-[35px] text-sky-800" />
                                     </div>
                                     <h2 className="font-semibold text-2xl">Contact us now</h2>
-                                    <p>DevelopersZone06.com</p>
+                                    <p>info@carenow.com</p>
                                 </div>
 
                             </div>
