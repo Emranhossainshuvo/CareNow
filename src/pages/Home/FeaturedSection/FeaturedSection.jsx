@@ -5,7 +5,7 @@ const FeaturedSection = () => {
     return (
         <>
             {/* this section will hold everything in this page */}
-            <section className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-5 mb-32">
+            <section className="grid max-w-screen-xl mx-auto md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-5 mb-32">
                 {/* first feature */}
 
                 <section className="flex gap-6 text-white py-12 ps-6 pe-7 rounded-md bg-gradient-to-r from-[#17D2BB] to-[#11D0E2] justify-center items-center">

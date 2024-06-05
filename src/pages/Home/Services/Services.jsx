@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <>
             {/* section that will hold everything  */}
-            <section className="mb-44">
+            <section className="mb-44 max-w-screen-xl mx-auto">
                 {/* section for title  */}
                 <section className="text-center mb-16">
                     <p className="font-semibold text-[#19D3AE]">OUR SERVICES</p>

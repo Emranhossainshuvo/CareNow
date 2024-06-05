@@ -28,7 +28,7 @@ const Testimonials = () => {
     return (
         <>
             {/* section that will hold everything in this file */}
-            <section>
+            <section className='max-w-screen-xl mx-auto'>
                 {/* section for holding the titles in this page */}
                 <section className='mb-36'>
                     <h3 className="text-[#19D3AE] text-center md:text-start font-semibold">Testimonials</h3>
