@@ -3,7 +3,7 @@ const Banner = () => {
     return (
         <>
             {/*section to hold everything  */}
-            <section className=" gap-5 max-w-screen-xl mx-auto md:flex md:justify-between md:items-center">
+            <section className=" my-10 gap-5 max-w-screen-xl mx-auto md:flex md:justify-between md:items-center">
                 {/* section to hold textx */}
                 <section className="md:w-1/2">
                     <h3 className="text-5xl text-center md:text-start mb-5 font-bold">Your New Smile Starts <br /> Here</h3>

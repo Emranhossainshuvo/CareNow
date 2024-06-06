@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <>
             {/* section that will hold everything  */}
-            <section className="mb-44 max-w-screen-xl mx-auto">
+            <section className="mb-44 mt-20 max-w-screen-xl mx-auto">
                 {/* section for title  */}
                 <section className="text-center mb-16">
                     <p className="font-semibold text-[#19D3AE]">OUR SERVICES</p>
@@ -41,8 +41,8 @@ const Services = () => {
                     </section>
                     {/* section to hold the texts */}
                     <section className="md:w-1/2">
-                        <h4 className="text-[#3A4256] text-center md:text-start mb-6 text-4xl font-semibold">Exceptional Dental Care, on Your Terms</h4>
-                        <p className="text-[#000000] text-center md:text-start text-sm mb-11">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using Content here, content here&apos;s, making it look like readable English. Many desktop publishing packages and web page</p>
+                        <h4 className="text-white text-center md:text-start mb-6 text-5xl font-bold">Exceptional Dental Care, on Your Terms</h4>
+                        <p className="text-white text-center md:text-start text-xl font-medium mb-11">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using Content here, content here&apos;s, making it look like readable English. Many desktop publishing packages and web page</p>
                         <section className="w-full flex justify-center md:justify-start">
                             <button className="text-white p-2 rounded-md bg-gradient-to-r from-[#17D2BB] to-[#11D0E2]">Get started</button>
                         </section>
