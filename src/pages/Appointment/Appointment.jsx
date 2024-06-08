@@ -1,7 +1,7 @@
 
 const Appointment = () => {
     return (
-        <div>
+        <div className="max-w-screen-xl mx-auto">
             <section className="pt-52 pb-60 md:flex md:justify-between md:items-center">
                 {/* section to hold textx */}
                 <section>

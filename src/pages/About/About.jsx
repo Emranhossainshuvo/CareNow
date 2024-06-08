@@ -4,7 +4,7 @@ import { VscDebugStart } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto">
+    <div className="max-w-screen-xl mx-auto">
 
       {/* 1st section */}
       <div className="flex flex-col sm:flex-row md:flex-row px-[2%] sm:px-[5%] mt-28 gap-10">

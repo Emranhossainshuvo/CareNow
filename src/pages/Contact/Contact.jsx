@@ -37,7 +37,7 @@ const Contact = () => {
     };
     return (
 
-        <div>
+        <div className="max-w-screen-xl mx-auto">
 
             <div className="mt-12">
                 <div className="px-[2%] sm:px-[5%] lg:px-[8%]">
