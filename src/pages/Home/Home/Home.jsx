@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Navbar from "../../../components/shared/Navbar/Navbar";
 import Banner from "../Banner/Banner";
 import FeaturedSection from "../FeaturedSection/FeaturedSection";
