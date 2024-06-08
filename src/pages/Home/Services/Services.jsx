@@ -41,10 +41,10 @@ const Services = () => {
                     </section>
                     {/* section to hold the texts */}
                     <section className="md:w-1/2">
-                        <h4 className="text-white text-center md:text-start mb-6 text-5xl font-bold">Exceptional Dental Care, on Your Terms</h4>
-                        <p className="text-white text-center md:text-start text-xl font-medium mb-11">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using Content here, content here&apos;s, making it look like readable English. Many desktop publishing packages and web page</p>
+                        <h4 className="text-black text-center md:text-start mb-6 text-5xl font-bold">Exceptional Dental Care, on Your Terms</h4>
+                        <p className="text-black text-center md:text-start text-xl font-medium mb-11">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using Content here, content here&apos;s, making it look like readable English. Many desktop publishing packages and web page</p>
                         <section className="w-full flex justify-center md:justify-start">
-                            <button className="text-white p-2 rounded-md bg-gradient-to-r from-[#17D2BB] to-[#11D0E2]">Get started</button>
+                            <button className="text-white text-lg font-medium p-2 rounded-md bg-gradient-to-r from-[#17D2BB] to-[#11D0E2]">Get started</button>
                         </section>
                     </section>
                 </section>
