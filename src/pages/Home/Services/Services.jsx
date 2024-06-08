@@ -17,20 +17,20 @@ const Services = () => {
                     {/* first service */}
                     <section className="shadow-sm rounded-md pt-11 pb-9 px-14 text-center shadow-black ">
                         <FaTooth className="text-7xl mb-8 text-[#11D0E2] w-full mx-auto" />
-                        <h5 className="text-[#3A4256] mb-2 text-lg font-semibold">Fluoride Treatment</h5>
-                        <p className="">Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
+                        <h5 className="text-[#3A4256] mb-2 text-xl font-semibold">Fluoride Treatment</h5>
+                        <p className="text-lg font-medium">Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
                     </section>
                     {/* second service */}
                     <section className="shadow-sm rounded-md pt-11 pb-9 px-14 text-center shadow-black ">
                         <GiPelvisBone className="text-7xl mb-8 text-[#11D0E2] w-full mx-auto" />
-                        <h5 className="text-[#3A4256] mb-2 text-lg font-semibold">Cavity Filling</h5>
-                        <p className="">Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
+                        <h5 className="text-[#3A4256] mb-2 text-xl font-semibold">Cavity Filling</h5>
+                        <p className="text-lg font-medium">Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
                     </section>
                     {/* third service */}
                     <section className="shadow-sm rounded-md pt-11 pb-9 px-14 text-center shadow-black ">
                         <LiaToothSolid className="text-7xl mb-8 text-[#11D0E2] w-full mx-auto" />
-                        <h5 className="text-[#3A4256] mb-2 text-lg font-semibold">Teeth Whitening</h5>
-                        <p className="">Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
+                        <h5 className="text-[#3A4256] mb-2 text-xl font-semibold">Teeth Whitening</h5>
+                        <p className="text-lg font-medium">Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
                     </section>
                 </section>
                 {/* section for holding hero section */}
