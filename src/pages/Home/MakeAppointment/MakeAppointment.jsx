@@ -3,7 +3,7 @@ const MakeAppointment = () => {
     return (
         <>
             {/* this section will hold everything in this page */}
-            <section style={{ backgroundImage: "url('https://i.ibb.co/FJwvfTm/2149164339.jpg')" }} className="relative max-w-screen-xl mx-auto md:flex bg-cover bg-opacity-70  md:items-center mb-20 md:justify-between">
+            <section style={{ backgroundImage: "url('https://i.ibb.co/FJwvfTm/2149164339.jpg')" }} className="relative max-w-screen-xl mx-auto md:flex bg-cover bg-opacity-70 md:items-center mb-20 md:justify-between">
                 <div className="absolute inset-0 bg-[#485164] opacity-80"></div>
                 {/* section for the image */}
                 <section>

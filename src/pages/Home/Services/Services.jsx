@@ -13,7 +13,7 @@ const Services = () => {
                     <h4 className="text-3xl font-semibold">Services We Provide</h4>
                 </section>
                 {/* section for service cards */}
-                <section className="grid mb-40 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <section className="grid mb-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     {/* first service */}
                     <section className="shadow-sm rounded-md pt-11 pb-9 px-14 text-center shadow-black ">
                         <FaTooth className="text-7xl mb-8 text-[#11D0E2] w-full mx-auto" />
