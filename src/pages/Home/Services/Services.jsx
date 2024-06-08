@@ -9,8 +9,8 @@ const Services = () => {
             <section className="mb-44 mt-20 max-w-screen-xl mx-auto">
                 {/* section for title  */}
                 <section className="text-center mb-16">
-                    <p className="font-semibold text-[#19D3AE]">OUR SERVICES</p>
-                    <h4 className="text-3xl">Services We Provide</h4>
+                    <p className="font-semibold text-xl text-[#19D3AE]">OUR SERVICES</p>
+                    <h4 className="text-3xl font-semibold">Services We Provide</h4>
                 </section>
                 {/* section for service cards */}
                 <section className="grid mb-40 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
