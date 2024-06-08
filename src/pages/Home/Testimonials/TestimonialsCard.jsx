@@ -6,12 +6,12 @@ const TestimonialsCard = ({reviews}) => {
     console.log(reviews)
     return (
         <>
-         <div className='text-xs rounded-md shadow-black shadow-md me-2 p-8'>
-                            <p className='mb-9'>{review}</p>
+         <div className='rounded-md shadow-black shadow-md me-2 p-8'>
+                            <p className='mb-5  '>{review}</p>
                             <div className='flex items-center gap-5'>
                                 <div className="avatar">
                                     <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                        <img src="https://i.ibb.co/93DgzVn/female-doctor-hospital.png" />
+                                        <img src="https://i.ibb.co/jRJwGT3/profile-pic.png"/>
                                     </div>
                                 </div>
                                 <div>
