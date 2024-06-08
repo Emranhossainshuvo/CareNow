@@ -12,8 +12,8 @@ const MakeAppointment = () => {
                 {/* section for the text in this hero section */}
                 <section className="md:w-1/2 relative z-10 ps-5">
                     <h5 className="text-[#19D3AE] text-lg font-medium text-center md:text-start">Appointment</h5>
-                    <h4 className="text-white text-center md:text-start mb-6 text-4xl font-bold">Make an appointment Today</h4>
-                    <p className="text-white text-center md:text-start text-lg font-medium mb-11">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using Content here, content here&apos;s, making it look like readable English. Many desktop publishing packages and web page</p>
+                    <h4 className="text-white text-center md:text-start mb-4 text-4xl font-bold">Make an appointment Today</h4>
+                    <p className="text-white text-center md:text-start text-lg font-medium mb-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using Content here, content here&apos;s, making it look like readable English. Many desktop publishing packages and web page</p>
                     <section className="flex justify-center pb-6 md:justify-start">
                         <button className="text-white p-2 rounded-md bg-gradient-to-r from-[#17D2BB] to-[#11D0E2]">Get started</button>
                     </section>
