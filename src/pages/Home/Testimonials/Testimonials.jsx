@@ -30,9 +30,9 @@ const Testimonials = () => {
             {/* section that will hold everything in this file */}
             <section className='max-w-screen-xl mx-auto'>
                 {/* section for holding the titles in this page */}
-                <section className='mb-36'>
-                    <h3 className="text-[#19D3AE] text-center font-semibold">Testimonials</h3>
-                    <p className="text-3xl text-center font-light">What Our Patients Says</p>
+                <section className="text-center mb-16">
+                    <p className="font-semibold text-xl text-[#19D3AE]">Testimonials</p>
+                    <h4 className="text-3xl font-semibold">What people think about us</h4>
                 </section>
                 {/* section that will hold the testimonials cards */}
                 <section>
